@@ -1,0 +1,128 @@
+#header-img {
+  height: 100px; 
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  background: linear-gradient(180deg, red, black, green);
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%
+    
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+    
+}
+
+#movie {
+  margin-top: 75px;
+}
+
+#movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+
+#calls-to-action {
+  text-align: center;
+}
+
+#action-items {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#george-photo {
+   height:250px;
+}
+
+#george-button:hover {
+  transform: scale(1.1);
+}
+
+#george {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  padding: 20px;
+}
+
+#breonna-photo {
+   height: 250px;
+}
+
+#breonna-button:hover {
+  transform: scale(1.1);
+}
+
+#breonna {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  padding: 20px;
+}
+
+#dion-photo {
+   height: 250px;
+}
+
+#dion-button:hover {
+  transform: scale(1.1);
+}
+
+#dion {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  padding: 20px;
+}
+
+form {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#submit {
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 300px) {img {max-width: 100px;}}
